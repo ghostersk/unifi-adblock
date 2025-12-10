@@ -13,7 +13,6 @@ URL_FILE_LIST="${TMP_FOLDER}/urllist.txt"
 BLOCKLIST_FILE="/run/utm/domain_list/domainlist_0.list"
 REMOVE_FILE="/run/utm/domain_list/domainlist_1.list"
 MERGED_LIST_TMP="${TMP_FOLDER}/mergedlist.txt"
-# NEW: Log file location
 LOG_FILE="${TMP_FOLDER}/custom_list.log"
 
 mkdir -p "$TMP_FOLDER" > /dev/null 2>&1
